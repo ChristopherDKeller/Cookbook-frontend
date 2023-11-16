@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-ingredient',
+  selector: 'app-add-recipe',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './ingredient.component.html',
-  styleUrl: './ingredient.component.css'
+  templateUrl: './add-recipe.component.html',
+  styleUrl: './add-recipe.component.css'
 })
-export class IngredientComponent {
+export class AddRecipeComponent {
 
 }
